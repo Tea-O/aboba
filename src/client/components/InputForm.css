@@ -1,0 +1,82 @@
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 60%;
+    height: 100%;
+}
+.chat-input-form{
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+/* .chat-input {
+    border: 1px solid #dadada;
+    height: 48px;
+    width: 84.8%;
+    padding: 10px 30px;
+    vertical-align: bottom;
+    box-sizing: border-box;
+} */
+/* .send-button {
+    float:right;
+    position: relative;
+    border: none;
+    height: 48px;
+    width: 7.6%;
+    background: #dadada;
+    border-right: 1px solid #cbcbcc;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* .emoji-button {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.emoji-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+} */
+
+.input-with-emoji {
+    /* display: flex; */
+    flex-grow: 1;
+    position: relative;
+    /* flex-wrap: nowrap; */
+}
+
+.chat-input {
+    flex-grow: 1;
+    padding-right: 40px;
+}
+
+.emoji-button {
+    position: absolute;
+    right: 0%;
+    /* top: 40%; */
+    /* transform: translateY(-50%); */
+    background: none;
+    border: none;
+    /* cursor: pointer; */
+    /* font-size: 20px; */
+}
+
+.send-button {
+    margin-left: 10px;
+}
+
+.emoji-picker-container {
+    position: absolute;
+    top: calc(100% - 500px);
+    left: calc(100% - 300px);
+}
